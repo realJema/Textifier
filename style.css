@@ -19,11 +19,12 @@ body {
 	justify-content: center;
 	padding-right: 2rem;
 	text-align: left;
-	flex-basis: 50%;
+	width: 50%;
 	height: fit-content;
 }
 
 .right {
+	width: 50%;
 	height: fit-content;
 }
 
@@ -60,7 +61,7 @@ h1 {
 }
 #btn {
 	margin-top: 1%;
-    width: 20%;
+    padding: 0 10px;
     margin: 10px auto;
     background-color: #00A9A9; /* Green */
     border: none;
