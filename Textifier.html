@@ -9,10 +9,14 @@
         </head>
         <body>
             <div class="content">
-                <h1>TEXTIFIER</h1>
-				<p class="info">Textifier is a text formatter tool used to remove all newline characters and text formatting. Place your unformatted text into the text box below and it will be <b>Automatically formatted</b> and copied to clipboard.</p><br/>
-                <textarea id="content" class="text_box" rows="25" cols="70" placeholder="Enter your text here!" onpaste="pasted()" onClick="mouseEnter()"></textarea><br/>
-				<div id="btn" class="btn" onClick="pasted()">Format</div>
+                <div class="left">
+                    <h1>TEXTIFIER</h1>
+                    <p class="info">Textifier is a text formatter tool used to remove all newline characters and text formatting. Place your unformatted text into the text box below and it will be <b>Automatically formatted</b> and copied to clipboard.</p><br/>
+                </div>
+                <div class="right">
+                    <textarea id="content" class="text_box" rows="25" cols="70" placeholder="Enter your text here!" onpaste="pasted()" onClick="mouseEnter()"></textarea><br/>
+                    <div id="btn" class="btn" onClick="pasted()">Format</div>
+                </div>
             </div>
         </body>
     </html>
