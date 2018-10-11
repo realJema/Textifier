@@ -3,21 +3,37 @@
         <head>
             <Title>Textifier</Title>
 <!--			This is the js-->
-			<script type="text/javascript" src="script.js"></script>
+            <script type="text/javascript" src="script.js"></script>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <!--			This is the css-->
 			<link rel="stylesheet" type="text/css" href="style.css"/>
         </head>
         <body>
-            <div class="content">
-                <div class="left column">
-                    <h1>TEXTIFIER</h1>
-                    <p class="info">Textifier is a text formatter tool used to remove all newline characters and text formatting. Place your unformatted text into the text box below and it will be <b>Automatically formatted</b> and copied to clipboard.</p><br/>
-                </div>
-                <div class="right column">
-                    <textarea id="content" class="text_box" rows="25" cols="70" placeholder="Enter your text here!" onpaste="pasted()" onClick="mouseEnter()"></textarea><br/>
-                    <div id="btn" class="btn" onClick="pasted()">Format</div>
+            <div class="container">
+                <div class="row">
+                    <div class="col content">
+                        <div class="left column">
+                            <h1>TEXTIFIER</h1>
+                            <p class="info">Textifier is a text formatter tool used to remove all newline characters and text formatting. Place your unformatted text into the text box below and it will be <b>Automatically formatted</b> and copied to clipboard.</p><br/>
+                        </div>
+                    </div>
+                    <div class="col content">
+                        <div class="right column">
+                            <textarea id="content" class="text_box" rows="25" cols="70" placeholder="Enter your text here!" onpaste="pasted()" onClick="mouseEnter()"></textarea><br/>
+                            <button id="btn" onClick="pasted()" type="button" class="btn btn-outline-primary">Format</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </body>
+
+            <div class="watermark">
+                created by <a href="#">@realJema</a>
+            </div>
+                <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        </body>   
     </html>
 </DOCTYPE>>
