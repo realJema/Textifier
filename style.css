@@ -1,0 +1,53 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+/*    margin: auto;*/
+	text-align: center;
+	padding: auto;
+}
+
+.text_box {
+	height: 50%;
+	width: 60%;
+	text-align: left;
+	border: 4px solid gainsboro;
+	margin: auto;
+	font-size: 1em;
+	font-family: "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	resize: none;
+	border-radius: 0.5em;
+}
+
+.text_box:hover{
+	border: 4px solid #00A9A9;
+	border-radius: 0.5em;
+}
+
+.text_box:focus {
+	outline: none;
+	box-shadow: 0 0 10px #719ECE;
+}
+#btn {
+	margin-top: 1%;
+    width: 20%;
+    margin: 10px auto;
+    background-color: #00A9A9; /* Green */
+    border: none;
+    color: white;
+    line-height: 2.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+.info {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+      width: 60%;
+    margin: auto;
+    text-align: left;
+}
